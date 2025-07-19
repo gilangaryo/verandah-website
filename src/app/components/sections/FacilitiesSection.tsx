@@ -10,7 +10,7 @@ const accommodations = [
     },
     {
         id: 'vila',
-        title: 'Vila',
+        title: 'Villa',
         image: '/images/villa-1.png',
         description: `Nikmati kemewahan dan ketenangan di Vila kami yang terinspirasi gaya Bali, tersedia dalam konfigurasi satu atau dua kamar tidur. Setiap vila dilengkapi kolam renang pribadi, menawarkan pemandangan hutan tropis dan suara alam yang menenangkan. Sempurna untuk liburan santai, vila ini menggabungkan kenyamanan modern dengan nuansa alami.`,
     },
