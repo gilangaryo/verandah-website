@@ -24,7 +24,7 @@ export const metadata = {
     siteName: 'Verandah Glamping Villa Mangli',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/hero.png',
         width: 1200,
         height: 630,
         alt: 'Verandah Glamping Villa Mangli',
