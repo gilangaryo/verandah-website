@@ -25,10 +25,10 @@ export default function Footer() {
                             <HiOutlinePhone />
                             <a href="https://wa.me/6285143087250" className="hover:underline">+62 851-4308-7250</a>
                         </div>
-                        <div className="flex items-center gap-2">
+                        {/* <div className="flex items-center gap-2">
                             <HiOutlineMail />
                             <a href="mailto:info@verandahglamping.com" className="hover:underline">info@verandahglamping.com</a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 {/* RIGHT: Newsletter & Social */}
