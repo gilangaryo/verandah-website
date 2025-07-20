@@ -23,7 +23,7 @@ export default function Footer() {
                         </div>
                         <div className="flex items-center gap-2">
                             <HiOutlinePhone />
-                            <a href="https://wa.me/628XXXXXXXXXX" className="hover:underline">+62 8XX-XXXX-XXXX</a>
+                            <a href="https://wa.me/6285143087250" className="hover:underline">+62 851-4308-7250</a>
                         </div>
                         <div className="flex items-center gap-2">
                             <HiOutlineMail />
@@ -37,7 +37,7 @@ export default function Footer() {
                         <div className="font-semibold mb-2">CONNECT WITH US</div>
                         <div className="flex gap-4 justify-center md:justify-start">
                             <a href="https://www.instagram.com/verandahmangli/" target="_blank" rel="noopener noreferrer" className="hover:text-primary"><SiInstagram size={22} /></a>
-                            <a href="https://wa.me/628XXXXXXXXXX" target="_blank" rel="noopener noreferrer" className="hover:text-primary"><SiWhatsapp size={22} /></a>
+                            <a href="https://wa.me/6285143087250" target="_blank" rel="noopener noreferrer" className="hover:text-primary"><SiWhatsapp size={22} /></a>
                         </div>
                     </div>
                 </div>

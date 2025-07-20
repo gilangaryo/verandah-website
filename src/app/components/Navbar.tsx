@@ -16,7 +16,7 @@ export default function Navbar() {
                 <div className="flex-1" />
 
                 <a
-                    href="https://wa.me/628XXXXXXXXXX"
+                    href="https://wa.me/6285143087250"
                     target="_blank"
                     className="text-sm font-sans text-foreground border border-foreground px-4 py-1 rounded hover:bg-foreground hover:text-background transition-colors"
                 >
