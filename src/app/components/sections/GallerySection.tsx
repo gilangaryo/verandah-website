@@ -13,6 +13,9 @@ const images = [
     '650748048.jpg',
     '650748531.jpg',
     '650748068.jpg',
+    'drone-1.jpg',
+    'drone-2.jpg',
+    'drone-3.jpg',
 ];
 export default function GallerySection() {
     return (
