@@ -5,7 +5,7 @@ const accommodations = [
     {
         id: 'keluarga',
         title: 'Kamar Keluarga',
-        image: '/images/room-1.png',
+        image: '/images/family-room.jpg',
         description: `Rasakan kenyamanan desain khas Bali di Kamar Keluarga kami yang dirancang elegan. Menghadap hutan hijau yang tenang, setiap kamar menyediakan ruang luas untuk berkumpul bersama keluarga. Nikmati fasilitas bathtub hangat, dan panorama lembah dari balkon pribadi yang menenangkan, menciptakan kenangan tak terlupakan.`,
     },
     {

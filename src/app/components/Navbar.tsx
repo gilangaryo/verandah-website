@@ -11,21 +11,21 @@ const navItems = [
 
 export default function Navbar() {
     return (
-        <header >
-            <div className="bg-background relative flex items-center px-6 py-8">
-                <div className="flex-1" />
-
-                <a
-                    href="https://wa.me/6285143087250"
-                    target="_blank"
-                    className="text-sm font-sans text-foreground border border-foreground px-4 py-1 rounded hover:bg-foreground hover:text-background transition-colors"
-                >
-                    Reservation
-                </a>
-
+        <header>
+            {/* Atas: Logo & Reservation */}
+            <div className="
+                bg-background relative flex items-center
+                px-6 py-8
+                flex-row
+                sm:justify-center
+            ">
+                {/* Logo di kiri HP, di tengah desktop */}
                 <a
                     href="#hero"
-                    className="absolute left-1/2 transform -translate-x-1/2"
+                    className="
+                        flex-shrink-0
+                        sm:absolute sm:left-1/2 sm:transform sm:-translate-x-1/2
+                    "
                 >
                     <Image
                         src="/images/verandah-logo.png"
@@ -34,9 +34,26 @@ export default function Navbar() {
                         height={20}
                     />
                 </a>
+
+                {/* Spacer di tengah, sembunyi di mobile */}
+                <div className="flex-1 hidden sm:block" />
+
+                {/* Reservation di kanan di mobile, kiri di desktop */}
+                <a
+                    href="https://wa.me/6285143087250"
+                    target="_blank"
+                    className="
+                        text-sm font-sans text-foreground border border-foreground
+                        px-4 py-1 rounded hover:bg-foreground hover:text-background transition-colors
+                        ml-auto
+                        sm:ml-0 sm:mr-auto
+                    "
+                >
+                    Reservation
+                </a>
             </div>
 
-
+            {/* Bawah: Navigasi */}
             <nav className="sticky top-0 z-50 bg-background/90 border-t border-gray-300">
                 <div className="max-w-6xl mx-auto">
                     <ul className="flex justify-center gap-8 py-2 text-sm font-sans text-foreground">

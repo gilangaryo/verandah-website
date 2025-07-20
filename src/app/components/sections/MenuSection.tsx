@@ -1,6 +1,6 @@
 export default function MenuSection() {
     return (
-        <section id="menu" className="py-20 px-4 text-dark">
+        <section id="menu" className="py-18 px-4 text-dark">
             <div className="max-w-4xl mx-auto text-center">
                 <p className="font-heading uppercase text-sm text-primary tracking-widest">Menu</p>
                 <h2 className="text-3xl font-heading text-primary mt-2">Makanan &amp; Minuman</h2>
