@@ -30,7 +30,7 @@ export default function Navbar() {
                     <Image
                         src="/images/verandah-logo.png"
                         alt="Verandah Logo"
-                        width={160}
+                        width={190}
                         height={20}
                     />
                 </a>

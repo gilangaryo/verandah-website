@@ -26,7 +26,7 @@ export default function ContactSection() {
                     Instagram
                 </a>
             </div>
-            <div className="mt-8">
+            <div className="mt-16">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.149537473332!2d110.10057431478353!3d-7.411920479625679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a9b0012fdd4ef%3A0xfd60d7ac1cf90401!2sVerandah%20Glamping%20Villa%20Mangli!5e0!3m2!1sen!2sid!4v1687961234567!5m2!1sen!2sid"
                     width="100%"
